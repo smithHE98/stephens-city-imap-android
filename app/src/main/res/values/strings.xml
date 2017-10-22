@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">phonetoad</string>
+    <string name="app_name">Stephens City Virtual Historical Tour</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
