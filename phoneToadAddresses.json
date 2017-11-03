@@ -1,0 +1,23 @@
+var nono = {name: ,adress: , description: , location:};
+
+
+
+var a = {"name": "Old Town Cemetery and site of town's East Academy" ,"adress":  "Southwest Corner of Mulberry and Green Streets" , "description": , "location": };
+var b = {"name": "Lutheran and German Reform Church Chapel and Cemetery." ,"adress": "Lot South of 5374 Mulberry Street" , "description": , "location":};
+var c = {"name": "First Methodist Church Cemetery" ,"adress": "Rear Lot of 5271 Main Street" , "description": "the site of the earliest Methodist meeting house and subsequent chapels" , "location": };
+var d = {"name": "Orrick Chapel" ,"adress": "5310 Mulberry Street" , "description": , "location":};
+var e = {"name": "Locust Grove African American Cemetery" ,"adress": "Southeast Corner of Grove and Locust Streets" , "description": , "location":};
+var f = {"name": "Green Hill Cemetery", "adress": "Between Fairfax, Martin, Water, and Grove Streets" , "description": , "location":};
+var g = {"name": "Stephen's log cabin","adress": "south of Stephens Run Street", "description": "Approximate site of log home built by original settler Peter Stephens and his family circa 1732", "location""39°04'49.1"N 78°13'19.2"W or 39.080298, -78.222009":};
+var h = {"name": "","adress": "5488 Main Street", "description": "", "location":""};
+var i = {"name": "","adress": "", "description": "", "location":""};
+var j = {"name": "","adress": "", "description": "", "location":""};
+var k = {"name": "","adress": "", "description": "", "location":""};
+var l = {"name": "","adress": "", "description": "", "location":""};
+var m = {"name": "","adress": "", "description": "", "location":""};
+var n = {"name": "","adress": "", "description": "", "location":""};
+var o = {"name": "","adress": "", "description": "", "location":""};
+var p = {"name": "","adress": "", "description": "", "location":""};
+var q = {"name": "","adress": "", "description": "", "location":""};
+var r = {"name": "","adress": "", "description": "", "location":""};
+var s = {"name": "","adress": "", "description": "", "location":""};
