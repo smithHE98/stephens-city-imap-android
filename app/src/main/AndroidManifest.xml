@@ -27,21 +27,28 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBlfFftnF1haM9FE3fOjMFAdz2fSUDYhhY" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity
             android:name=".SplashActivity"
-            android:theme="@style/SplashTheme">
+            android:theme="@style/NoActionBarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"
-            android:theme="@style/Theme.AppCompat" />
-        <activity android:name=".InfoPageActivity" />
+            android:theme="@style/NoActionBarTheme" />
+
+        <activity
+            android:name=".InfoPageActivity"
+            />
+
     </application>
 
 </manifest>

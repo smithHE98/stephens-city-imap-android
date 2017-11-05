@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Stephens City Virtual Historical Tour</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_maps2">Map</string>
+    <string name="splashScreenTitleP1">Stephens City</string>
+    <string name="splashScreenTitleP2">Virtual Historical Tour</string>
+    <string name="splashScreenTitleP3">Do Not Interact With Device While Operating Vehicle</string>
 </resources>

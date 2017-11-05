@@ -5,7 +5,7 @@
     <item>
         <bitmap
             android:gravity="center"
-            android:src="@drawable/newtownhistorycenterlogo"/>
+            android:src="@drawable/logo" />
     </item>
 
 </layer-list>
