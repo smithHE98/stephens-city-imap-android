@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">phonetoad</string>
+    <string name="app_name">Stephens City Virtual Historical Tour</string>
+    <string name="splashScreenTitleP1">Stephens City</string>
+    <string name="splashScreenTitleP2">Virtual Historical Tour</string>
+    <string name="splashScreenTitleP3">Do Not Interact With Device While Operating Vehicle</string>
+    <string name="splashImageContentDescription">Newtown History Center logo</string>
 </resources>
