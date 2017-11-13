@@ -14,54 +14,55 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/p1"
+            android:id="@+id/tv1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/economica"
             android:text="@string/splashScreenTitleP1"
             android:textAlignment="center"
             android:textColor="@color/splashTextColorRed"
-            android:textSize="80sp"
+            android:textSize="70sp"
             android:textStyle="bold"
             android:visibility="visible" />
 
         <TextView
-            android:id="@+id/p2"
+            android:id="@+id/tv2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/economica"
             android:text="@string/splashScreenTitleP2"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textColor="@color/splashTextColorBlue"
-            android:textSize="58sp"
+            android:textSize="48sp"
             android:textStyle="bold"
             android:visibility="visible" />
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/iv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:cropToPadding="false"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/logo" />
+            app:srcCompat="@drawable/logo"
+            tools:ignore="ContentDescription" />
 
         <TextView
-            android:id="@+id/p3"
+            android:id="@+id/tv3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:color="@color/regularText"
-            android:fontFamily="@font/lora"
             android:text="@string/splashScreenTitleP3"
             android:textAlignment="center"
-            android:textSize="28sp"
-            android:textStyle="italic"
+            android:textColor="@color/regularText"
+            android:textSize="26sp"
             android:visibility="visible" />
     </LinearLayout>
 
