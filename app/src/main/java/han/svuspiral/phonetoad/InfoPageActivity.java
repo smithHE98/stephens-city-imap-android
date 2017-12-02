@@ -33,6 +33,8 @@ public class InfoPageActivity extends AppCompatActivity {
         tv2.setTypeface(lf);
     }
 
+
+
     public void onClick(View v){
         startActivity(new Intent(InfoPageActivity.this, MapsActivity.class));
     }
