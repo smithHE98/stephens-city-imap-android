@@ -2,133 +2,163 @@
   "data": [
 
     {
-      "name": "",
+      "title": "",
       "address": "",
       "description": "",
-      "location": ""
+      "latitude": "",
+      "longitude": "",
+      "image": ""
     },
     {
-      "name": "Old Town Cemetery and site of town's East Academy",
+      "title": "Old Town Cemetery and site of town's East Academy",
       "address": "Southwest Corner of Mulberry and Green Streets",
-      "description": "",
-      "location": "39.081549, -78.218520",
-      "img": "@drawable 1pt"
+      "description": " ",
+      "latitude": "39.081549",
+      "longitude": "-78.218520",
+      "image": "@drawable/pt1"
     },
     {
-      "name": "Lutheran and German Reform Church Chapel and Cemetery.",
+      "title": "Lutheran and German Reform Church Chapel and Cemetery.",
       "address": "Lot South of 5374 Mulberry Street",
-      "description": "",
-      "location": "39.082940, -78.216938",
-      "img": "@drawable 2pt"
+      "description": " ",
+      "latitude": "39.082940",
+      "longitude": "-78.216938",
+      "image": "@drawable/pt2"
     },
     {
-      "name": "First Methodist Church Cemetery",
+      "title": "First Methodist Church Cemetery",
       "address": "Rear Lot of 5271 Main Street",
       "description": "the site of the earliest Methodist meeting house and subsequent chapels",
-      "location": "39.086219, -78.216642",
-      "img": "@drawable 3pt"
+      "latitude": "39.086219",
+      "longitude": "-78.216642",
+      "image": "@drawable/pt3"
     },
     {
-      "name": "Orrick Chapel",
+      "title": "Orrick Chapel",
       "address": "5310 Mulberry Street",
-      "description": "",
-      "location": "39.087338, -78.220137",
-      "img": "@drawable 4pt"
+      "description": " ",
+      "latitude": "39.087338",
+      "longitude": "-78.220137",
+      "image": "@drawable/pt4"
     },
     {
-      "name": "Locust Grove African American Cemetery",
+      "title": "Locust Grove African American Cemetery",
       "address": "Southeast Corner of Grove and Locust Streets",
-      "description": "",
-      "location": "",
-      "img": "@drawable 5pt"
+      "description": " ",
+      "latitude": " ",
+      "longitude": " ",
+      "image": "@drawable/pt5"
     },
     {
-      "name": "Green Hill Cemetery",
+      "title": "Green Hill Cemetery",
       "address": "Between Fairfax, Martin, Water, and Grove Streets",
-      "description": "",
-      "location": "",
-      "img": "@drawable 6pt"
+      "description": " ",
+      "latitude": " ",
+      "longitude": " ",
+      "image": "@drawable/pt6"
     },
     {
-      "name": "Stephen's log cabin",
+      "title": "Stephen's log cabin",
       "address": "south of Stephens Run Street",
       "description": "Approximate site of log home built by original settler Peter Stephens and his family circa 1732",
-      "location": "39.080298, -78.222009",
-      "img": "@drawable 7pt"
+      "latitude": "39.080298",
+      "longitude": "-78.222009",
+      "image": "@drawable/pt7"
     },
     {
-      "name": "St. John's Primitive Baptist Church",
+      "title": "St. John's Primitive Baptist Church",
       "address": "5488 Main Street",
-      "description": "built in 1892 by African American Primitive Baptists ",
-      "location": "39.084362, -78.215604 ",
-      "img": "@drawable 8pt"
+      "description": "built in 1892 by African American Primitive Baptists",
+      "latitude": "39.084362",
+      "longitude": "-78.215604",
+      "image": "@drawable/pt8"
     },
     {
-      "name": "home of John Bell Tilden and Lewis Stephens Jr",
+      "title": "Original home of Lewis Stephens Jr. and later home of John Bell Tilden",
       "address": "5246 Grove Street",
       "description": "Original home of Lewis Stephens Jr. and later home of John Bell Tilden, Methodist minister, veteran of the Revolutionary War, and physician. House named 'Bell Air'",
-      "location": "39.087894, -78.218910 ",
-      "img": "@drawable 9pt"
+      "latitude": "39.087894",
+      "longitude": "-78.218910",
+      "image": "@drawable/pt9"
     },
     {
-      "name": "Samuel Hull's Store",
+      "title": "Samuel Hull's Store",
       "address": "5336 Main Street",
-      "description": "Samuel Hull's Store where note was posted by Major Harry Gilmor (CSA) warning that if Union General Hunter Burned the town Gilmor would kill the Union P.O.W. soldiers he held as captives. Also the location where Union Major Joseph K. Stearns of the 1st New York Lincoln Cavalry required the townspeople to sign the oath of allegiance to the Union government on June 1st 1864",
-      "location": "39.084377, -78.217057",
-      "img": "@drawable 10pt"
+      "description": "On the 1st of June 1864 a pivotal event took place in front of this building. On that first day of June Major Joseph K. Stearns of the 1st New York “Lincoln” Cavalry came to Newtown with his men carrying orders to burn the town. It had all started over a week earlier on the evening of the 23rd of May, when partisan Confederate sympathizers from Maryland fired on a Federal wagon train from horseback as they rode away, shot one Union soldier and escaped.  In the confusion that followed a number of the Federal troops unhitched their wagons, left them on the street in the town and rode the horses away to Winchester. In retaliation, and without knowing all the facts, Union General David Hunter (1802-1886) ordered Major Timothy Quinn of the 1st New York Cavalry to burn the houses from which the shots were fired as a warning to the citizens of Newtown not to attack any more Federal wagon trains. In turn Major Quinn burned at least three houses, including the Methodist parsonage and a brick house owned by a local entrepreneur slave trader. Ironically, Major Quinn burned the parsonage because one of the Federal wagons had been left on the street in front of the house by an African American man who had tried to move it to his own home but gave up on his plan before reaching his goal. It was also at this time that General Hunter issued a written proclamation saying that the he would order the burning of the town if any more of his soldiers and wagons were attacked.By the evening of the 29th the people of Newtown were the unfortunate bystanders once again when Confederate Colonel Harry Gilmor (1838-1883) and his partisan rangers attacked a Union wagon train guarded by 83 men of the 15th New York Cavalry at Stephens Run near the southern end of town. Despite the pleas of at least one resident, Eliza Kern Steele (1808-1882), Colonel Gilmor attacked the wagon train within the town boundaries. After it all was over, Colonel Gilmor and his men had killed three, wounded nine, taken the others as prisoners and burned most of the wagons at the southern end of the town. Colonel Gilmor then learned of General Hunter’s threat to burn the town if any more wagon trains were attacked. He was shocked but quickly wrote a note addressed to General Hunter. In this note he said he held thirty-five men and six officers, and Gilmor promised to hang all of them and send General Hunter their bodies if Hunter carried out his threat to burn the town. This note was then nailed to the door of this store.The morning of the following day Confederate Colonel John Singleton Mosby (1883-1916) and his men raided the rear guard of another Federal wagon train heading north on the Valley Turnpike just south of town. They killed two of the Federal soldiers and captured five others with their horses and equipment. One of the captured men was reportedly caught in the act of burning a barn south of town. Colonel Mosby’s men brought him to the town’s hotel (the building that today houses the Newtown History Center) and gave this prisoner some breakfast as his last meal. The prisoner was then taken to the burned ruins of the slave trader’s brick house east of town and shot against one of the remaining brick walls.The first of June came with the residents of Newtown scrambling to save as many of their moveable possessions as they could by hiding and burying them in their yards. When Major Stearns arrived in town to execute General Hunter’s burning orders, he and his men were met by the sight of old people, women and children standing in the doorways of their homes with expressions of despair and helplessness on their faces. Community leaders also met him, protesting the innocence of the townspeople. They disassociated themselves from the attacks by Gilmor and Mosby and spoke of the aid they had given to the wounded Federals in their homes. Compassion may have played a role in Major Stearns’ decision to disobey General Hunter’s orders but he also was made aware of Gilmore’s note and the threat it contained. In exchange for not burning the town, Major Stearns required the people of Newtown to take the oath of allegiance to the Union here in front of this store. In turn, the town was spared and many of the old buildings that would have been burned by General Hunter’s men still stand today in Stephens City.",
+      "latitude": "39.084377",
+      "longitude": "-78.217057",
+      "image": "@drawable/pt10"
     },
     {
-      "name": "Home of the Steele family",
+      "title": "Home of the Steele family",
       "address": "5211 Main Street",
       "description": "Home of the Steele family who acquired the property in 1847 and kept diaries during the Civil War",
-      "location": " 39.087280, -78.214820"
+      "latitude": "39.087280",
+      "longitude": "-78.214820",
+      "image": " "
     },
     {
-      "name": "burned",
+      "title": "Approximate site of Methodist parsonage burned by General Hunter's Union Troops",
       "address": "5123 Main Street",
-      "description": "Approximate site of Methodist parsonage burned by General Hunter's Union. Troops during May of 1864 due to misunderstanding about an attack on a Union wagon train",
-      "location": " 39.089586, -78.212818"
+      "description": "Approximate site of Methodist parsonage burned by General Hunter's Union Troops during May of 1864 due to misunderstanding about an attack on a Union wagon train",
+      "latitude": "39.089586",
+      "longitude": "-78.212818",
+      "image": " "
     }, {
-      "name": "Market House",
+      "title": "Market House",
       "address": "Intersection of Main and Fairfax",
       "description": "ite of the town's Market House that was torn down in 1833 to make way for the macadamized paving of the Valley Pike (U.S. Rt. 11)",
-      "location": " 39.083115, -78.218315"
+      "latitude": "39.083115",
+      "longitude": "-78.218315",
+      "image": " "
     },
     {
-      "name": "Home of James Lemley ",
+      "title": "Home of James Lemley",
       "address": "5335 Germain Street",
       "description": "Home of James Lemley (1821-1899) who was a blacksmith and son of one of the town's most noted blacksmith/wagon makers - Site drawn by folk artist Frank Staling circa 1857",
-      "location": "39.085057, -78.218221"
+      "latitude": "39.085057",
+      "longitude": "-78.218221",
+      "image": " "
     },
     {
-      "name": "oldest standing house in town",
+      "title": "Stone House",
       "address": "5428 Main Street",
       "description": "Stone House - Possibly oldest standing house in town",
-      "location": " 39.082489, -78.218714"
+      "latitude": "39.082489",
+      "longitude": "-78.218714",
+      "image": " "
     },
     {
-      "name": "Newtown History Center",
+      "title": "Newtown History Center",
       "address": "5808 Main Street",
       "description": "Newtown History Center housed in 1819 Newtown Tavern/Hotel",
-      "location": "39.079407, -78.221703"
+      "latitude": "39.079407",
+      "longitude": "-78.221703",
+      "image": " "
     },
     {
-      "name": "Steele House & Streele & Bro. Store",
+      "title": "Steele House & Streele & Bro. Store",
       "address": "5353 Main Street",
       "description": "Steele House & Streele & Bro. Store",
-      "location": " 39.084132, -78.217426 "
+      "latitude": "39.084132",
+      "longitude": "-78.217426",
+      "image": " "
     },
     {
-      "name": "City School ",
+      "title": "Old Stephen City School",
       "address": "5516 Main Street",
       "description": "Old Stephen City School built in 1916",
-      "location": " 39.080635, -78.220239 "
+      "latitude": "39.080635",
+      "longitude": "-78.220239",
+      "image": " "
     },
     {
-      "name": "Toll House",
+      "title": "Nicewanger's Toll House",
       "address": "South Side of Stephens Run on West Side of U.S. Rt. 11",
       "description": "Site of Nicewanger's Toll House drawn by folk artist Frank Staling circa 1857",
-      "location": "39.079374, -78.222020"
+      "latitude": "39.079374",
+      "longitude": "-78.222020",
+      "image": " "
     }
 
   ]

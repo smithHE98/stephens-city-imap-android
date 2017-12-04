@@ -33,7 +33,7 @@ private Typeface ef, lf;
             tv1.setTypeface(ef);
             tv2.setTypeface(ef);
             tv3.setTypeface(lf);
-        final Intent i = new Intent(this, MapsActivity.class);
+        final Intent i = new Intent(this, MainActivity.class);
         Thread timer = new Thread() {
             public void run () {
                 try {

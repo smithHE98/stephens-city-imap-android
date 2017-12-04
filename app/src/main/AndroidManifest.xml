@@ -38,17 +38,10 @@
         </activity>
 
         <activity
-            android:name=".MapsActivity"
+            android:name=".MainActivity"
             android:theme="@style/NoActionBarTheme">
 
         </activity>
-
-        <activity
-            android:name=".InfoPageActivity"
-            android:theme="@style/ActionBarTheme">
-
-        </activity>
-
 
     </application>
 
