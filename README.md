@@ -6,5 +6,5 @@ Hannah Smith (Project Lead),
 Adrian Sanchez (Scrum Master),
 Patrick Cathcart (Software Architect)
 
-OTHER CONTRIBUTORS
+OTHER CONTRIBUTORS:
 Wyatt Karnes, Thai Morris
