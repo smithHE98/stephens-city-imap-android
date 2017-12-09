@@ -1,71 +1,86 @@
 package han.svuspiral.phonetoad;
 
-import android.app.FragmentTransaction;
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Typeface;
-import android.graphics.drawable.Drawable;
-import android.net.Uri;
 import android.os.Bundle;
-import android.app.Fragment;
+import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class InfoPageFragment extends Fragment {
+public class InfoPageFragment extends android.support.v4.app.Fragment implements View.OnClickListener {
 
-    View mView;
-    private ImageView iv;
-    private TextView tv1;
-    private TextView tv2;
-    private Typeface ef;
-    private Typeface lf;
-    location mlocation;
+    ImageView imageView;
+    TextView title;
+    TextView description;
+    TextView address;
+    Button returnToMap;
+    Location mLocation;
+    private Typeface economica_bold, lora_regular;
 
     public InfoPageFragment() {
         // Required empty public constructor
     }
 
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+        View view = inflater.inflate(R.layout.fragment_info_page, container, false);
+
+        // Initializes views for Text & Image
+
+        imageView = (ImageView) view.findViewById(R.id.image_view);
+        title = (TextView) view.findViewById(R.id.title_view);
+        description = (TextView) view.findViewById(R.id.description_view);
+        address = (TextView) view.findViewById(R.id.address_view);
+        returnToMap = (Button) view.findViewById(R.id.returnToMap);
+        returnToMap.setOnClickListener(this);
+
+        // Sets typeface for text
+
+        economica_bold = Typeface.createFromAsset(getActivity().getAssets(), "font/Economica-Bold.ttf");
+        lora_regular = Typeface.createFromAsset(getActivity().getAssets(), "font/Lora-Regular.ttf");
+        title.setTypeface(economica_bold);
+        description.setTypeface(lora_regular);
+        address.setTypeface(economica_bold);
+
+        return view;
+    }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        mView =  inflater.inflate(R.layout.fragment_info_page, container, false);
-        // Inflate the layout for this fragment
-        iv = (ImageView)
-                mView.findViewById(R.id.iv);
-        tv1 = (TextView)
-                mView.findViewById(R.id.tv1);
-        tv2 = (TextView)
-                mView.findViewById(R.id.tv2);
-
-        ef = Typeface.createFromAsset(getActivity().getAssets(), "font/Economica-Bold.ttf");
-        lf = Typeface.createFromAsset(getActivity().getAssets(), "font/Lora-Regular.ttf");
-        tv1.setTypeface(ef);
-        tv2.setTypeface(lf);
-        updateInfo();
-
-
-
-        return mView;
+    public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
+        updateLocationInfo();
     }
 
-    public void loadLocation(location Location){
-        mlocation = Location;
+    // onClick method for button to go back to map
 
+    @Override
+    public void onClick(View view) {
+        if (view.getId() == R.id.returnToMap) {
+            android.support.v4.app.FragmentTransaction t = this.getFragmentManager().beginTransaction();
+            t.addToBackStack("map");
+            MapFragment mFrag = new MapFragment();
+            t.replace(R.id.main_container, mFrag);
+            t.commit();
+        }
     }
 
-//    public void onClick(View v){
+    // Location information updater
 
- //       getActivity().getFragmentManager().popBackStack();
- //   }
+    private void updateLocationInfo() {
+        title.setText(mLocation.getTitle().toString());
+        description.setText(mLocation.getDescription().toString());
+        address.setText(mLocation.getAddress().toString());
+        Context context = imageView.getContext();
+        int id = context.getResources().getIdentifier(mLocation.getImage(), "drawable", context.getPackageName());
+        imageView.setImageResource(id);
+    }
 
-    private void updateInfo(){
-//        iv.setImageDrawable(Drawable.createFromPath(mlocation.getImage()));
-//        tv1.setText(mlocation.getTitle());
-//        tv2.setText(mlocation.getDescription());
+    public void passLocation(Location location) {
+        mLocation = location;
     }
 
 }

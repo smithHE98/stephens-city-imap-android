@@ -14,26 +14,38 @@ private TextView tv1;
 private TextView tv2;
 private TextView tv3;
 private ImageView iv;
-private Typeface ef, lf;
+private Typeface economica_bold, lora_regular;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        // Initializes views for Text & Image
+
             tv1 = (TextView)
-                    findViewById(R.id.tv1);
+                    findViewById(R.id.splashtitle);
             tv2 = (TextView)
-                    findViewById(R.id.tv2);
+                    findViewById(R.id.splashtitle2);
             iv = (ImageView)
-                    findViewById(R.id.iv);
+                    findViewById(R.id.logo);
             tv3 = (TextView)
-                    findViewById(R.id.tv3);
-            ef = Typeface.createFromAsset(getAssets(), "font/Economica-Bold.ttf");
-            lf = Typeface.createFromAsset(getAssets(), "font/Lora-Regular.ttf");
-            tv1.setTypeface(ef);
-            tv2.setTypeface(ef);
-            tv3.setTypeface(lf);
+                    findViewById(R.id.warning);
+
+        // Sets typeface for text
+
+            economica_bold = Typeface.createFromAsset(getAssets(), "font/Economica-Bold.ttf");
+            lora_regular = Typeface.createFromAsset(getAssets(), "font/Lora-Regular.ttf");
+            tv1.setTypeface(economica_bold);
+            tv2.setTypeface(economica_bold);
+            tv3.setTypeface(lora_regular);
+
+        // Transition to MainActivity
+
         final Intent i = new Intent(this, MainActivity.class);
+
+        // Timer for splash screen
+
         Thread timer = new Thread() {
             public void run () {
                 try {

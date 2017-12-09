@@ -16,32 +16,47 @@
         android:orientation="vertical"
         tools:context="han.svuspiral.phonetoad.InfoPageFragment">
 
+        <Button
+            android:id="@+id/returnToMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="@string/infoPageButton" />
+
         <ImageView
-            android:id="@+id/iv"
+            android:id="@+id/image_view"
             android:layout_width="350dp"
             android:layout_height="230dp"
             android:cropToPadding="false"
             android:paddingBottom="20dp"
             android:paddingTop="20dp"
-            app:srcCompat="@drawable/pt1"
             tools:ignore="ContentDescription" />
 
         <TextView
-            android:id="@+id/tv1"
+            android:id="@+id/title_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/test"
             android:textAlignment="viewStart"
             android:textColor="@color/regularText"
-            android:textSize="24sp" />
+            android:textSize="40sp" />
 
         <TextView
-            android:id="@+id/tv2"
+            android:id="@+id/address_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/test"
+            android:textAlignment="viewStart"
+            android:textColor="@color/regularText"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/description_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/test2"
             android:textColor="@color/regularText"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
 
     </LinearLayout>
 
