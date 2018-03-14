@@ -99,42 +99,42 @@ public class MapFragment extends Fragment implements OnMapReadyCallback {
         LatLng store = new LatLng(39.084377, -78.217057);
         googleMap.addMarker(new MarkerOptions().position(store)
                 .title("Known during the Civil War as Samuel Hull's Store"));
-        //Add marker for (11)
-        LatLng steele = new LatLng(39.087280, -78.214820);
-        googleMap.addMarker(new MarkerOptions().position(steele)
-                .title("Home of the Steele family who acquired the property in 1847 and kept diaries during the Civil War"));
-        //Add marker for (12)
-        LatLng general = new LatLng(39.089586, -78.212818);
-        googleMap.addMarker(new MarkerOptions().position(general)
-                .title("Approximate site of Methodist parsonage burned by General Hunter's Union Troops during May of 1864 due to misunderstanding about an attack on a Union wagon train\n"));
-        //Add marker for (13)
-        LatLng market = new LatLng(39.083115, -78.218315);
-        googleMap.addMarker(new MarkerOptions().position(market)
-                .title("Site of the town's Market House that was torn down in 1833 to make way for the macadamized paving of the Valley Pike (U.S. Rt. 11)"));
-        //Add marker for (14)
+//        //Add marker for (11)
+//        LatLng steele = new LatLng(39.087280, -78.214820);
+//        googleMap.addMarker(new MarkerOptions().position(steele)
+//                .title("Home of the Steele family who acquired the property in 1847 and kept diaries during the Civil War"));
+//        //Add marker for (12)
+//        LatLng general = new LatLng(39.089586, -78.212818);
+//        googleMap.addMarker(new MarkerOptions().position(general)
+//                .title("Approximate site of Methodist parsonage burned by General Hunter's Union Troops during May of 1864 due to misunderstanding about an attack on a Union wagon train\n"));
+//        //Add marker for (13)
+//        LatLng market = new LatLng(39.083115, -78.218315);
+//        googleMap.addMarker(new MarkerOptions().position(market)
+//                .title("Site of the town's Market House that was torn down in 1833 to make way for the macadamized paving of the Valley Pike (U.S. Rt. 11)"));
+//        //Add marker for (14)
         LatLng lemley = new LatLng(39.085057, -78.218221);
-        googleMap.addMarker(new MarkerOptions().position(lemley)
-                .title("Home of James Lemley (1821-1899) who was a blacksmith and son of one of the town's most noted blacksmith/wagon makers "));
-        //Add marker for (15)
-        LatLng stone = new LatLng(39.082489, -78.218714);
-        googleMap.addMarker(new MarkerOptions().position(stone)
-                .title("Stone House - possibly the oldest standing house in town"));
-        //Add marker for (16)
-        LatLng newtown = new LatLng(39.079407, -78.221703);
-        googleMap.addMarker(new MarkerOptions().position(newtown)
-                .title("Newtown History Center housed in 1819 Newtown Tavern/Hotel"));
-        //Add marker for (17)
-        LatLng steelestore = new LatLng(39.084132, -78.217426);
-        googleMap.addMarker(new MarkerOptions().position(steelestore)
-                .title("Steele House & Streele & Bro. Store"));
-        //Add marker for (18)
-        LatLng school = new LatLng(39.080635, -78.220239);
-        googleMap.addMarker(new MarkerOptions().position(school)
-                .title("Old Stephen City School built in 1916"));
-        //Add marker for (19)
-        LatLng toll = new LatLng(39.079374, -78.222020);
-        googleMap.addMarker(new MarkerOptions().position(toll)
-                .title("Site of Nicewanger's Toll House"));
+//        googleMap.addMarker(new MarkerOptions().position(lemley)
+//                .title("Home of James Lemley (1821-1899) who was a blacksmith and son of one of the town's most noted blacksmith/wagon makers "));
+//        //Add marker for (15)
+//        LatLng stone = new LatLng(39.082489, -78.218714);
+//        googleMap.addMarker(new MarkerOptions().position(stone)
+//                .title("Stone House - possibly the oldest standing house in town"));
+//        //Add marker for (16)
+//        LatLng newtown = new LatLng(39.079407, -78.221703);
+//        googleMap.addMarker(new MarkerOptions().position(newtown)
+//                .title("Newtown History Center housed in 1819 Newtown Tavern/Hotel"));
+//        //Add marker for (17)
+//        LatLng steelestore = new LatLng(39.084132, -78.217426);
+//        googleMap.addMarker(new MarkerOptions().position(steelestore)
+//                .title("Steele House & Streele & Bro. Store"));
+//        //Add marker for (18)
+//        LatLng school = new LatLng(39.080635, -78.220239);
+//        googleMap.addMarker(new MarkerOptions().position(school)
+//                .title("Old Stephen City School built in 1916"));
+//        //Add marker for (19)
+//        LatLng toll = new LatLng(39.079374, -78.222020);
+//        googleMap.addMarker(new MarkerOptions().position(toll)
+//                .title("Site of Nicewanger's Toll House"));
 
         // Sets the camera at a location that is at center of the map
 
