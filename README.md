@@ -1,4 +1,4 @@
-# Stephens City Interactive Map for Android
+# Stephens City interactive map app for Android phones
 Repository for Stephens City historical virtual tour Android app developed in Android Studio
 
 TEAM:
