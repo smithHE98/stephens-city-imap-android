@@ -1,5 +1,5 @@
-# phonetoad
-Repository for Stephens City historical site tour app developed in Android Studio
+# Stephens City Interactive Map for Android
+Repository for Stephens City historical virtual tour Android app developed in Android Studio
 
 TEAM:
 Hannah Smith (Project Lead),
